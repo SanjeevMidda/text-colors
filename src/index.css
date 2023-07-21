@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  transition: all 500ms;
+  background-color: black;
+
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100dvh;
+}
+
+.colors {
+  display: flex;
+  width: 96%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.mainContent {
+  margin: auto;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.209);
+  border-radius: 20px;
+  border: none;
+}
+
+textarea {
+  /* border: 1px solid grey; */
+  border-radius: 20px;
+  outline: none;
+  padding: 20px;
+  border: none;
+  width: 70vw;
+  height: 70vh;
+  border: 1px solid white;
+}
+
+.one {
+  background-color: rgb(62, 62, 255);
+}
+
+.two {
+  background-color: rgb(251, 251, 63);
+}
+
+.three {
+  background-color: rgb(255, 255, 255);
+}
+
+.four {
+  background-color: rgb(94, 255, 94);
+}
+
+.five {
+  background-color: rgb(255, 149, 55);
+}
+
+.increase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.color {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  color: white;
+  font-size: 2rem;
+}
